@@ -1,0 +1,21 @@
+.progress-wrapper {
+  max-width: 920px;
+  margin: 20px auto; }
+  .progress-wrapper .progress-title {
+    font-size: 30px;
+    margin-bottom: 10px; }
+  .progress-wrapper .bars-container {
+    margin-bottom: 20px; }
+    .progress-wrapper .bars-container .progress {
+      margin-bottom: 10px;
+      height: 2rem; }
+  .progress-wrapper .control-container .ant-select {
+    margin-right: 16px; }
+  .progress-wrapper .control-container .button-container {
+    display: inline-block; }
+    .progress-wrapper .control-container .button-container .ant-btn {
+      margin-right: 10px; }
+
+@media only screen and (max-width: 440px) {
+  .button-container {
+    margin-top: 10px; } }
